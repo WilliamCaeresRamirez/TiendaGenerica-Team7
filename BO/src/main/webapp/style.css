@@ -1,0 +1,41 @@
+body{
+  background-image:  url("https://cdn.pixabay.com/photo/2018/09/26/21/24/corn-3705687_960_720.jpg");
+  background-size: cover;
+
+  } 
+
+ body::after {
+
+  background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+input[type="text"],
+input[type="password"]{
+  font-size: 15px;
+  width: 30%
+}
+
+.formulario{
+  background-color: rgb(0, 0,0,0.5);
+  width: 50%;
+  border-radius: 10px;
+  margin: 20px;
+
+}
+
+.titulo{
+
+  color: whitesmoke;
+}
+
+.btn btn-link{
+  color: yellow;
+}
+
